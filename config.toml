@@ -1,3 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://192.168.20.128"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "code-editor"
+
+[params]
+    author = "John Doe"
+    locale = "en-US"
+    rootlink = "/"
+    # rootlink specifies where Root in menu.html links to. If it's not set then baseurl will be used. 
